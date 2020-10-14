@@ -1,0 +1,22 @@
+---- serial_plc Matches (21 in 5 files) ----
+Auto_report_app.c (app\report):	device_t *serial_plc = device_find("uart0");
+Auto_report_app.c (app\report):	return(device_write(serial_plc, 0, in, len));
+Dev.c (app):	device_t * serial_plc = device_find("uart0");
+Dev.c (app):	device_write(serial_plc, 0, g_frame_buf, ret);
+Dev_show.c (app):	device_t *serial_plc = device_find("uart2");
+Dev_show.c (app):	device_write(serial_plc, 0, g_frame_buf, len);
+Plc_smart.c (app):static device_t *serial_plc;
+Plc_smart.c (app):        device_write(serial_plc, 0, arg, ret);
+Plc_smart.c (app):            device_write(serial_plc, 0, g_frame_buf, ret);
+Plc_smart.c (app):    serial_plc = device_find("uart2");
+Plc_smart.c (app):    assert(serial_plc);
+Plc_smart.c (app):    err = device_ctrl(serial_plc, SERIAL_CTRL_GETCFG, &cfg);
+Plc_smart.c (app):    err = device_ctrl(serial_plc, SERIAL_CTRL_SETCFG, &cfg);
+Plc_smart.c (app):    err = device_open(serial_plc, DEVICE_FLAG_INT_RX | DEVICE_FLAG_INT_TX | DEVICE_FLAG_FASYNC);
+Plc_smart.c (app):    int len = device_peek(serial_plc, 0, g_frame_buf, sizeof(g_frame_buf));
+Plc_smart.c (app):			device_read(serial_plc, 0, g_frame_buf, ret);
+Plc_smart.c (app):				device_read(serial_plc, 0, g_frame_buf, len);
+Plc_smart.c (app):		device_write(serial_plc, 0, g_frame_buf, len);
+Plc_smart.c (app):		device_write(serial_plc, 0, g_frame_buf, len);
+Update.c (app):	device_t *serial_plc = device_find("uart2");
+Update.c (app):	device_write(serial_plc, 0, tmp, len);

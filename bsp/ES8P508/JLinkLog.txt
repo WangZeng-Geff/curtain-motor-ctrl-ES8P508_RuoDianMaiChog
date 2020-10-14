@@ -1,0 +1,42 @@
+
+T6CEC 000:367 SEGGER J-Link V6.44 Log File (0001ms, 0110ms total)
+T6CEC 000:367 DLL Compiled: Mar  1 2019 17:32:34 (0001ms, 0110ms total)
+T6CEC 000:367 Logging started @ 2019-07-19 09:03 (0001ms, 0110ms total)
+T6CEC 000:368 JLINK_SetWarnOutHandler(...) (0000ms, 0110ms total)
+T6CEC 000:368 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
+Hardware: V9.60
+S/N: 69610668
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0059ms, 0169ms total)
+T6CEC 000:368 WEBSRV Webserver running on local port 19080 (0060ms, 0170ms total)
+T6CEC 000:368   returns O.K. (0060ms, 0170ms total)
+T6CEC 000:428 JLINK_SetErrorOutHandler(...) (0000ms, 0170ms total)
+T6CEC 000:428 JLINK_ExecCommand("ProjectFile = "E:\program\P-ACT-CC1-AC-B\bsp\ES8P508\JLinkSettings.ini"", ...). Ref file found at: C:\Keil\ARM\Segger\JLinkDevices.ref (0006ms, 0176ms total)
+T6CEC 000:428 REF file references invalid XML file: C:\Program Files (x86)\SEGGER\JLink_V644\JLinkDevices.xml (0006ms, 0176ms total)
+T6CEC 000:428 Device "ARM7" selected.  returns 0x00 (0009ms, 0179ms total)
+T6CEC 000:437 JLINK_ExecCommand("Device = ES8P508xFJXX", ...). Device "ARM7" selected.  returns 0x00 (0002ms, 0181ms total)
+T6CEC 000:439 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0181ms total)
+T6CEC 000:439 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0008ms, 0189ms total)
+T6CEC 000:447 JLINK_SetSpeed(2000) (0001ms, 0190ms total)
+T6CEC 000:448 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 0190ms total)
+T6CEC 000:448 JLINK_GetDLLVersion()  returns 64400 (0000ms, 0190ms total)
+T6CEC 000:448 JLINK_GetFirmwareString(...) (0000ms, 0190ms total)
+T6CEC 000:448 JLINK_GetDLLVersion()  returns 64400 (0000ms, 0190ms total)
+T6CEC 000:448 JLINK_GetCompileDateTime() (0000ms, 0190ms total)
+T6CEC 000:448 JLINK_GetFirmwareString(...) (0000ms, 0190ms total)
+T6CEC 000:448 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 0190ms total)
+T6CEC 000:450 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0190ms total)
+T6CEC 000:450 JLINK_Reset()
+  ***** Error: ARM7 is not supported via SWD
+  ***** Error: ARM7 is not supported via SWDJLINK_GetId()
+  ***** Error: ARM7 is not supported via SWD
+  ***** Error: ARM7 is not supported via SWD  returns 0x00000000 (0066ms, 0322ms total)
+T6CEC 000:582 JLINK_GetId()
+  ***** Error: ARM7 is not supported via SWD
+  ***** Error: ARM7 is not supported via SWD  returns 0x00000000 (0064ms, 0386ms total)
+T6CEC 000:651 JLINK_GetFirmwareString(...) (0000ms, 0386ms total)
+T6CEC 002:270 JLINK_Close() (0004ms, 0390ms total)
+T6CEC 002:270  (0004ms, 0390ms total)
+T6CEC 002:270 Closed (0004ms, 0390ms total)
